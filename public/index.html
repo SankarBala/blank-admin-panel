@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin panel</title>
+    <link rel="stylesheet" type="text/css" href="tailwindcss.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+</head>
+
+<body>
+    <div class="w-screen h-screen mx-auto">
+
+        <div class="grid grid-cols-12">
+            <div class="bg-primary col-start-1 lg:col-span-2 col-span-1 h-screen">
+                <div class="w-100  h-14 flex justify-evenly items-center">
+
+                    <img class="h-full w-9 items-center" src="./icons/flower.svg" />
+
+                    <p class="text-white text-xl xl:text-2xl font-bold lg:block hidden mb-1">SANKAR
+                        BALA</p>
+                </div>
+
+                <div class="w-5/6 bg-white p-1 rounded  h-16 flex justify-evenly items-center my-10 m-auto">
+
+                    <img class="h-full  items-center" src="./icons/flower.svg" />
+                    <span>
+
+                        <p class=" text-xl lg:block hidden font-serif">sankar_bala</p>
+                        <p class="text-md lg:block hidden font-serif text-yellow-500">Admin</p>
+                    </span>
+
+                </div>
+
+                <div>
+                    <a href="" class="hover:bg-purple-600  text-white flex justify-center p-2.5 pb-3">
+                        <i class="bi bi-speedometer2 text-xl"></i>
+                        <span class="lg:block hidden ml-4 text-2xl">
+                            Dashboard
+                        </span>
+                    </a>
+
+
+                </div>
+
+
+
+
+
+            </div>
+            <div class="col-start-3 col-span-10 h-screen">
+
+                <div class="bg-primary w-full h-14 flex text-primary justify-between items-center p-4">
+                    <label for="sidebarStatus" class="mb-3 cursor-pointer"> <i class="bi bi-grid-3x3-gap-fill text-2xl"></i></label>
+                    <div class="sm:hidden block">SMALLEST </div>
+                    <div class="sm:block hidden">SM &nbsp;</div>
+                    <div class="md:block hidden ">MD &nbsp;</div>
+                    <div class="lg:block hidden">LG &nbsp;</div>
+                    <div class="xl:block hidden">XL &nbsp;</div>
+                    <div class="2xl:block hidden">2XL &nbsp;</div>
+                </div>
+                <h3>welcome</h3>
+                <input id="sidebarStatus" type="checkbox" class="" checked/>
+
+                <div class="bg-secondary w-full h-10 fixed bottom-0">
+                    j
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+:root {
+  --bg-primary: #114463;
+  --bg-secondary: #152b44;
+  --text-primary: #ffffff;
+  --text-secondary: #702142;
+}
+
+html,
+body {
+  background-color: white;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}
+
+.text-primary{
+    color: var(--text-primary);
+}
+.text-secondary{
+    color: var(--text-secondary);
+}
